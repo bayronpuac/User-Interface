@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Titillium Web', sans-serif;ß
 }
 
 h1, h2, h3, h4, h5 {
@@ -65,10 +65,37 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.nav{ 
-	text-align: center;
-	height: 100px;
-	padding: 0 100px;
+nav{ 
+	min-height: 80px;
+	max-width: 1024px;
+	padding: 0 30px;
+	font-size: .9em; 
+	margin: 0 auto;
 
 }
-	
+
+nav a { 
+	display: inline-block; 
+	height: 80px; 
+	line-height: 80px;
+	padding: 0 30px;
+	color:#b4b4b4;
+	text-decoration: none;
+
+}
+
+nav .logo{ 
+	display:inline-block; 
+	height: 65px; 
+	width: 183px;
+	image-rendering: right;
+	background-repeat: no-repeat;
+	vertical-align:bottom;
+	background-position: center;
+}
+
+@media (max-width:900px) {
+	nav .log{
+		display: none;
+	}
+}
