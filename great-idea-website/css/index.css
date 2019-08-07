@@ -64,3 +64,135 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav{ 
+	min-height: 150px;
+	max-width: 1024px;
+	padding: 0 50px;
+	font-size: .9em; 
+	margin: 0 auto;
+
+}
+
+nav a { 
+	display: inline-block; 
+	height: 40px; 
+	line-height: 70px;
+	padding: 0 30px;
+	color:#b4b4b4;
+	text-decoration: none;
+
+}
+
+nav .logo{ 
+	display:inline-block; 
+	height: 65px; 
+	width: 183px;
+	image-rendering: right;
+	background-repeat: no-repeat;
+	vertical-align:bottom;
+	background-position: center;
+}
+
+h1{ 
+	font-size: 4.75em; 
+	margin-bottom: .25em;
+	text-align: center;
+
+}
+
+h2{
+	font-size: 1em;
+	font-weight: bold; 
+	margin-bottom: 1em;
+
+}
+
+a{ 
+	text-decoration: none;
+
+}
+
+header { 
+	min-height: 500px;
+	max-height:20px;
+	max-width: 1024px;
+	min-width: 650px; 
+	border-bottom: 1px solid black;
+	margin: 0 auto;
+
+}
+.leftheader{ 
+	margin:0; 
+	display: inline-block; 
+	width:49%;
+	height: 500px;
+}
+	#Intro{
+		display:block;
+		margin-top: 28%;
+}
+
+button{ 
+	display:block;
+	width: 180px; 
+	height: 35px;
+	margin: 0 auto;
+	border: 1px solid black;
+	font-size: 1em;
+}
+.rightheader{ 
+	width: 50%; 
+	display: inline-block; 
+	vertical-align: center; 
+	background-size: 80%;
+	height: 500px;
+}
+
+.top{
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 35px 5px;
+}
+.bottom{ 
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 35px 5px;
+}
+.two{ 
+	display:inline-block; 
+	max-width: 49%;
+	padding: 5px;
+}
+
+.three{
+	display:inline-block; 
+	max-width: 32%;
+	padding: 5px;
+}
+
+.middle-img{
+	display:block;
+	margin-left: auto;
+	margin-right: auto; 
+	width: 40%;
+}
+.contacts{
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 35px 10px;
+	border-top: 1px solid black;
+}
+footer{
+	text-align: center;
+	padding: 100px;
+}
+
+footer .phone{
+	text-align:center;
+	padding: 500px;
+
+}
+.contacts .phone{
+	line-height: 3;
+	}
