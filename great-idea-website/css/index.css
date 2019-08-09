@@ -48,6 +48,8 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
+
+
 * {
     box-sizing: border-box;
 }
@@ -64,6 +66,10 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	width: 90%;
+	border: 1px solid red;
+}
 
 nav{ 
 	min-height: 150px;
@@ -150,14 +156,15 @@ button{
 }
 
 .top{
-	max-width: 1024px;
+	border: 1px solid blue;
+	width: 90%;
 	margin: 0 auto;
 	padding: 35px 5px;
 }
 .bottom{ 
-	max-width: 1024px;
 	margin: 0 auto;
 	padding: 35px 5px;
+	width: 90%;
 }
 .two{ 
 	display:inline-block; 
@@ -167,7 +174,7 @@ button{
 
 .three{
 	display:inline-block; 
-	max-width: 32%;
+	width: 32%;
 	padding: 5px;
 }
 
@@ -175,13 +182,12 @@ button{
 	display:block;
 	margin-left: auto;
 	margin-right: auto; 
-	width: 40%;
+	width: 90%;
 }
 .contacts{
-	max-width: 1024px;
-	margin: 0 auto;
+	width: 60%;
 	padding: 35px 10px;
-	border-top: 1px solid black;
+	border: 1px solid black;
 }
 footer{
 	text-align: center;
@@ -196,3 +202,6 @@ footer .phone{
 .contacts .phone{
 	line-height: 3;
 	}
+
+
+	
